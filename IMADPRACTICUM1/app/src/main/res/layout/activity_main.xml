@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText"><![CDATA[
+
+
+
+
+
+
+
+
+    />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="88dp"
+        android:ems="10"
+        android:hint="Enter song name or artist name"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtoutput" />
+
+    <TextView
+        android:id="@+id/txtoutput"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1dp"
+        android:hint="FIND YOUR SONG"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="29dp"
+        android:text="Next"
+        app:layout_constraintBottom_toTopOf="@+id/btnexit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnadd" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="80dp"
+        android:text="Add to play list"
+        app:layout_constraintBottom_toTopOf="@+id/btnnext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/btnexit"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="52dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnnext"
+        tools:text="Exit" />
+    button3.setonclicklisterner{finish()
+
+</LinearLayout>
+    />
